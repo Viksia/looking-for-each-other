@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="./images/fav.png" />
+	<link rel="stylesheet" href="./sass/main.css">
+	<title>Looking For Each Other</title>
+</head>
+
+<body>
+	<div class="container">
+		<img src="./images/board-game-web.png" alt="Background" class="background-image" />
+
+		<header class="aside">
+			<div class="players">
+				<div id="avat1" class="player player-1">
+					<svg width=34 height=34 class="mipl">
+						<use href="./images/icons.svg#boat">
+					</svg>
+				</div>
+				<div id="avat2" class="player player-2"><svg width=34 height=34 class="mipl">
+						<use href="./images/icons.svg#boat">
+					</svg>
+				</div>
+				<div id="avat3" class="player player-3"><svg width=34 height=34 class="mipl">
+						<use href="./images/icons.svg#boat">
+					</svg>
+				</div>
+				<div id="avat4" class="player player-4"><svg width=34 height=34 class="mipl">
+						<use href="./images/icons.svg#boat">
+					</svg>
+				</div>
+				<div id="avat5" class="player player-5"><svg width=34 height=34 class="mipl">
+						<use href="./images/icons.svg#boat">
+					</svg>
+				</div>
+
+			</div>
+		</header>
+		<div class="decks">
+			<div class="deck-group deck-group-gor">
+				<img class="deck deck-gor" id="deck1" src="./images/decks/deck1/back.png" alt="Колода 1">
+				<img class="deck deck-gor" id="deck2" src="./images/decks/deck2/back.png" alt="Колода 4">
+			</div>
+			<div class="deck-group deck-group-ver">
+				<img class="deck deck-ver" id="deck3" src="./images/decks/deck3/back.png" alt="Колода 2">
+				<img class="deck deck-ver" id="deck4" src="./images/decks/deck4/back.png" alt="Колода 3">
+			</div>
+
+			<!-- Добавьте другие колоды по аналогии -->
+		</div>
+
+
+
+	</div>
+	<script src="src/random.js"></script>
+	<script src="src/players.js"></script>
+</body>
+
+</html>

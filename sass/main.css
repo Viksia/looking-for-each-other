@@ -1,0 +1,110 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f0f2;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.background-image {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  width: auto;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Колоды */
+.decks {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.decks .deck-group-gor {
+  display: flex;
+  flex-direction: row;
+  margin: 0 30px;
+  gap: 950px; /* Расстояние между колодами - можете изменить */
+}
+.decks .deck-group-gor .deck-gor {
+  border-radius: 7px;
+  width: 250px; /* Ширина карты - можете изменить */
+  height: auto; /* Высота карты будет автоматически вычисляться, чтобы сохранить пропорции */
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.decks .deck-group-ver {
+  display: flex;
+  flex-direction: row;
+  margin-top: 270px;
+  margin-left: 30px;
+  gap: 1090px; /* Расстояние между колодами - можете изменить */
+}
+.decks .deck-group-ver .deck-ver {
+  border-radius: 7px;
+  width: auto; /* Ширина карты - можете изменить */
+  height: 250px; /* Высота карты будет автоматически вычисляться, чтобы сохранить пропорции */
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.decks #deck1 {
+  border: 4px solid #2b6c91;
+}
+.decks #deck2 {
+  border: 4px solid #2b6c91;
+}
+.decks #deck3 {
+  border: 4px solid #2b6c91;
+}
+.decks #deck4 {
+  border: 4px solid #2b6c91;
+}
+
+/* Хедер */
+.aside {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  /* Стили для фішок */
+}
+.aside .players {
+  margin-top: 38px;
+}
+.aside .players .player {
+  position: absolute;
+  z-index: 200;
+  cursor: pointer;
+}
+.aside .players #avat1 {
+  left: 80px;
+  fill: #d70a12;
+}
+.aside .players #avat2 {
+  left: 130px;
+  fill: #f3b40d;
+}
+.aside .players #avat3 {
+  left: 180px;
+  fill: #199333;
+}
+.aside .players #avat4 {
+  left: 230px;
+  fill: #0b5394;
+}
+.aside .players #avat5 {
+  left: 280px;
+  fill: #d94f84;
+}/*# sourceMappingURL=main.css.map */

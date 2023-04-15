@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #f9f0f2;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	// border: 5px solid #be5b70;
+	min-height: 100vh;
+}
+
+.background-image {
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	width: auto;
+	height: 100%;
+	z-index: -1;
+}
+
+/* Колоды */
+.decks {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	// max-width: 1400px; /* Ширина контейнера - можете изменить */
+	// margin: 80px auto; /* Центрирование контейнера на странице */
+
+	.deck-group-gor {
+		display: flex;
+		flex-direction: row;
+		margin: 0 30px;
+		gap: 950px; /* Расстояние между колодами - можете изменить */
+
+		.deck-gor {
+			border-radius: 7px;
+			width: 250px; /* Ширина карты - можете изменить */
+			height: auto; /* Высота карты будет автоматически вычисляться, чтобы сохранить пропорции */
+			cursor: pointer;
+			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+				0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+		}
+	}
+
+	.deck-group-ver {
+		display: flex;
+		flex-direction: row;
+		margin-top: 270px;
+		margin-left: 30px;
+		gap: 1090px; /* Расстояние между колодами - можете изменить */
+
+		.deck-ver {
+			border-radius: 7px;
+			width: auto; /* Ширина карты - можете изменить */
+			height: 250px; /* Высота карты будет автоматически вычисляться, чтобы сохранить пропорции */
+			cursor: pointer;
+			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+				0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+		}
+	}
+
+	#deck1 {
+		border: 4px solid #2b6c91;
+	}
+	#deck2 {
+		border: 4px solid #2b6c91;
+	}
+	#deck3 {
+		border: 4px solid #2b6c91;
+	}
+	#deck4 {
+		border: 4px solid #2b6c91;
+	}
+}
+
+/* Хедер */
+
+.aside {
+	position: relative;
+	display: flex;
+	z-index: 1;
+
+	/* Стили для фішок */
+
+	.players {
+		margin-top: 38px;
+
+		.player {
+			position: absolute;
+			z-index: 200;
+			cursor: pointer;
+		}
+
+		#avat1 {
+			left: 80px;
+			fill: #d70a12;
+		}
+		#avat2 {
+			left: 130px;
+			fill: #f3b40d;
+		}
+		#avat3 {
+			left: 180px;
+			fill: #199333;
+		}
+		#avat4 {
+			left: 230px;
+			fill: #0b5394;
+		}
+		#avat5 {
+			left: 280px;
+			fill: #d94f84;
+		}
+	}
+}
