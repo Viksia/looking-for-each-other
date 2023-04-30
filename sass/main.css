@@ -75,9 +75,7 @@ body {
 
 /* Хедер */
 .aside {
-  position: relative;
   display: flex;
-  z-index: 1;
   /* Стили для фішок */
 }
 .aside .players {
@@ -89,22 +87,17 @@ body {
   cursor: pointer;
 }
 .aside .players #avat1 {
-  left: 80px;
-  fill: #d70a12;
+  left: 320px;
 }
 .aside .players #avat2 {
-  left: 130px;
-  fill: #f3b40d;
+  left: 370px;
 }
 .aside .players #avat3 {
-  left: 180px;
-  fill: #199333;
+  left: 420px;
 }
 .aside .players #avat4 {
-  left: 230px;
-  fill: #0b5394;
+  left: 470px;
 }
 .aside .players #avat5 {
-  left: 280px;
-  fill: #d94f84;
+  left: 520px;
 }/*# sourceMappingURL=main.css.map */

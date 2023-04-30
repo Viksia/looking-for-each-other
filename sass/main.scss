@@ -5,6 +5,7 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	background-color: #f9f0f2;
+	// background-color: 6e2921;
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -84,9 +85,8 @@ body {
 /* Хедер */
 
 .aside {
-	position: relative;
+	// position: relative;
 	display: flex;
-	z-index: 1;
 
 	/* Стили для фішок */
 
@@ -100,24 +100,24 @@ body {
 		}
 
 		#avat1 {
-			left: 80px;
-			fill: #d70a12;
+			left: 320px;
+			// fill: #d70a12;
 		}
 		#avat2 {
-			left: 130px;
-			fill: #f3b40d;
+			left: 370px;
+			// fill: #f3b40d;
 		}
 		#avat3 {
-			left: 180px;
-			fill: #199333;
+			left: 420px;
+			// fill: #199333;
 		}
 		#avat4 {
-			left: 230px;
-			fill: #0b5394;
+			left: 470px;
+			// fill: #0b5394;
 		}
 		#avat5 {
-			left: 280px;
-			fill: #d94f84;
+			left: 520px;
+			// fill: #d94f84;
 		}
 	}
 }
